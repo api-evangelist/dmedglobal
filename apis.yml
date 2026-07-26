@@ -1,7 +1,15 @@
 aid: dmedglobal
-name: dmedglobal
-description: dmedglobal is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: dMed Global (Caidya)
+description: dMed Global, now operating as Caidya, is a global, full-service clinical
+  research organization (CRO) headquartered in Shanghai, China and backed by Qiming
+  Venture Partners. The company provides flexible, patient-centric clinical trial
+  solutions to biopharmaceutical innovators, running studies across more than 40
+  countries and regions. Its capabilities span clinical operations, regulatory
+  services, data management, biostatistics, and complex trial execution across core
+  therapeutic areas. Caidya operates an English-language corporate site at
+  caidya.com and a Chinese-language site at caidya.cn. This profile is maintained in
+  the API Evangelist network as a company record; the company publishes no public
+  API or developer program at this time.
 url: https://raw.githubusercontent.com/api-evangelist/dmedglobal/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,29 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.caidya.com/wp-content/uploads/2026/06/og-image.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Clinical Research
+- Contract Research Organization
+- Healthcare
+- Life Sciences
+- Pharmaceutical
+- Clinical Trials
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/dmedglobal-domain-security.yml
 - type: Website
   url: https://dmedglobal.com
+- type: Website
+  url: https://www.caidya.com
+- type: PrivacyPolicy
+  url: https://www.caidya.com/privacy-notices/
+- type: Support
+  url: https://www.caidya.com/contact/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
